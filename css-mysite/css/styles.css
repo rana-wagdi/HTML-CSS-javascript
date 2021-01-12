@@ -6,24 +6,27 @@ h1{
     margin-top: 0;
 }
 .first-container{
+    display: inline-block;
+    top:0;
     background-color: #42A5F5;
-    border: 10px solid;
     height: 200px;
-    padding:10px;
     width: 200px;
-    
+    position: relative;
+
 }
 .middle-container{
+    display: inline-block;
+    right:10px;
     background-color: red;
-    border: 20px solid;
     height: 200px;
-    margin: 1px 240px;
     width: 200px;
+    position: relative;
 }
 .bottom-container{
+    display: inline-block;
     background-color:yellow;
-    border:10px solid;
+    right: 20px;
     height: 200px;
-    margin:1px 480px ;
     width: 200px;
+    position: relative;
 }
