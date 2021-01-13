@@ -1,32 +1,42 @@
 body{
     margin: 0;
+    background-color: #42a4f538;
+    font-family: 'Merriweather', serif;
     
 }
 h1{
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
 }
-.first-container{
-    display: inline-block;
-    top:0;
-    background-color: #42A5F5;
-    height: 200px;
-    width: 200px;
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    text-decoration: underline;
+}
+.top-container{
+    text-align: center;
     position: relative;
-
+    padding-top: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom:300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    
+    
 }
 .middle-container{
-    display: inline-block;
-    right:10px;
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    position: relative;
+
+
 }
 .bottom-container{
-    display: inline-block;
-    background-color:yellow;
-    right: 20px;
-    height: 200px;
-    width: 200px;
-    position: relative;
+    
 }
