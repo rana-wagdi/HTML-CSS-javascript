@@ -61,8 +61,14 @@ span{
     float: left;
     margin-right: 30px;
 }
+.code-skill-descraption{
+    clear:left;
+}
 .chillie-img{
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+.chillie-skill-descraption{
+    clear: right;
 }
