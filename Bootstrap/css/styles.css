@@ -54,10 +54,33 @@ body{
 
     /* Features */
 
-#features {
-    margin:3rem 0;
+#features  {
+    margin: 10rem auto;
     text-align: center;
 }
-.inlinee{
-    display: inline-block;
+
+#features h3{
+    font-size: 1.5rem;
+    font-weight:bold;
 }
+#features p{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+.check{
+    background-color: #ef8172;
+    color: #ffffff;
+    padding: 1rem;
+    font-size:2rem;
+    border-radius: 3rem;
+    margin: 1rem 0;
+}
+.heart{
+    color: #ef8172;
+    font-size:4rem;
+    margin: 1rem 0;
+}
+.heart:hover{
+    color: #ff4c68;
+}
+
