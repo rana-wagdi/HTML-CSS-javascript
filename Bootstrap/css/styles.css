@@ -10,24 +10,23 @@ body{
     padding: 3% 15% 7%;
 }
 #title{
-    background-color: #ff4c68;
     color: #ffffff;
-
-
+    background-color: #ff4c68;
 }
 #title h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
     font-size: 3rem;
+    font-weight: 900;
     line-height: 1.5;
 
 }
 
+
+
 /* Naviation Bar */
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
     font-size: 2rem;
+    font-weight: bold;
 }
 .navbar{
     padding-bottom: 4.5rem;
@@ -36,8 +35,8 @@ body{
     padding: 0 18px;
 }
 .nav-link{
-    font-size: 1.2rem;
     font-family: "Montserrat-Light";
+    font-size: 1.2rem;
 }
 
 /* Download Buttons */
@@ -49,20 +48,19 @@ body{
 /* Title img */
 
 .title-img{
-    width: 60%;
-    transform: rotate(25deg);
     position: absolute;
     right: 30%;
+    transform: rotate(25deg);
+    width: 60%;
 }
 
     /* Features */
 
 #features  {
-    margin: 0rem auto ;
-    
-    text-align: center;
-    position: relative;
     background-color: #ffffff;
+    margin: 0rem auto ;
+    position: relative;
+    text-align: center;
 }
 
 #features h3{
@@ -77,11 +75,11 @@ body{
     padding: 10% 2%;
 }
 .check{
-    background-color: #ef8172;
-    color: #ffffff;
-    padding: .4rem;
     border-radius: 3rem;
+    color: #ffffff;
+    background-color: #ef8172;
     margin: 1rem 0;
+    padding: .4rem;
 }
 .check:hover{
     background-color: #ff4c68;
@@ -95,7 +93,6 @@ body{
 }
 .heart{
     color: #ef8172;
-    
     margin: 1.5rem 0;
 }
 .heart:hover{
@@ -105,25 +102,21 @@ body{
 /* Testimonials start */
 
 #testimonials{
+    color: #ffffff;
     background-color: #ef8172;
     text-align: center;
-    color: #ffffff;
-
-   
 }
 #testimonials-carousel{
     padding: 7% 15%;
 }
 #testimonials h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 3rem;
-    
+    font-weight: bold;
 }
 .testimonial-img{
-    width: 10%;
-    margin: 20px;
     border-radius: 100%;
+    margin: 20px;
+    width: 10%;
 }
 
 /* Testimonials ends */
@@ -132,12 +125,12 @@ body{
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
+    text-align: center;
 }
 .press-log{
-    width: 15%;
     margin: 20px 20px 50px;
+    width: 15%;
 }
 
 /* pricing */
@@ -150,8 +143,34 @@ body{
     padding: 3% 2%;
 }
 
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 2%;
+    text-align: center;
+}
+#cta h3{
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0 auto 5rem;
+    line-height: 1.5;
+    width:80%;
+}
 
+/* footer */
+.icon{
+    margin: .5rem;
+}
+#footer{
+    padding: 5%;
+    text-align: center;
 
+}
+#footer p{
+    color: #8f8f8f;
+    margin: 2rem auto;
+}
 
 
 @media (max-width: 1028px) {
