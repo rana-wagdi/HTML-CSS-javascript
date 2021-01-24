@@ -7,11 +7,12 @@ body{
     font-family: "Montserrat";
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 #title{
     background-color: #ff4c68;
     color: #ffffff;
+
 
 }
 #title h1{
@@ -42,7 +43,7 @@ body{
 /* Download Buttons */
 
 .download-button{
-    margin: 5% 3% 7% 0;
+    margin: 5% 3% 5% 0;
 }
 
 /* Title img */
@@ -50,13 +51,18 @@ body{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
     /* Features */
 
 #features  {
-    margin: 2rem auto;
+    margin: 0rem auto ;
+    
     text-align: center;
+    position: relative;
+    background-color: #ffffff;
 }
 
 #features h3{
@@ -68,8 +74,7 @@ body{
     font-weight: 500;
 }
 .feature-box{
-    margin-bottom:1rem;
-    padding: 2%;
+    padding: 10% 2%;
 }
 .check{
     background-color: #ef8172;
