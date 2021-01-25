@@ -5,7 +5,17 @@
 }
 body{
     font-family: "Montserrat";
+    text-align: center;
 }
+
+/*heading*/
+.navbar-brand,#features h3,#testimonials h2,#cta h3{
+    font-weight: bold;
+}
+
+
+
+
 .container-fluid{
     padding: 3% 15% 7%;
 }
@@ -17,6 +27,7 @@ body{
     font-size: 3rem;
     font-weight: 900;
     line-height: 1.5;
+    text-align: left;
 
 }
 
@@ -26,7 +37,7 @@ body{
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
-    font-weight: bold;
+
 }
 .navbar{
     padding-bottom: 4.5rem;
@@ -60,12 +71,11 @@ body{
     background-color: #ffffff;
     margin: 0rem auto ;
     position: relative;
-    text-align: center;
 }
 
 #features h3{
     font-size: 1.5rem;
-    font-weight:bold;
+
 }
 #features p{
     color: #8f8f8f;
@@ -104,14 +114,14 @@ body{
 #testimonials{
     color: #ffffff;
     background-color: #ef8172;
-    text-align: center;
+    
 }
 #testimonials-carousel{
     padding: 7% 15%;
 }
 #testimonials h2{
     font-size: 3rem;
-    font-weight: bold;
+
 }
 .testimonial-img{
     border-radius: 100%;
@@ -126,7 +136,6 @@ body{
 #press{
     background-color: #ef8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 .press-log{
     margin: 20px 20px 50px;
@@ -137,7 +146,6 @@ body{
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 .pricing-column{
     padding: 3% 2%;
@@ -147,12 +155,11 @@ body{
 #cta{
     background-color: #ff4c68;
     padding: 7% 2%;
-    text-align: center;
 }
 #cta h3{
     color: #ffffff;
     font-size: 3.5rem;
-    font-weight: bold;
+
     margin: 0 auto 5rem;
     line-height: 1.5;
     width:80%;
@@ -164,7 +171,7 @@ body{
 }
 #footer{
     padding: 5%;
-    text-align: center;
+ 
 
 }
 #footer p{
