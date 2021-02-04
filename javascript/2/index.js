@@ -1,2 +1,2 @@
-document.querySelector('ul').lastElementChild.innerHTML ="Rana";
-"Rana"
+document.getElementsByTagName("li")[2].style.color = "pink";
+
