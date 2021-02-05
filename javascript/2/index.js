@@ -1,2 +1,1 @@
-document.getElementsByTagName("li")[2].style.color = "pink";
-
+document.querySelector('h1').classList.add('huge')
